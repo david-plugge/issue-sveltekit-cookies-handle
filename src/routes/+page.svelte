@@ -3,7 +3,7 @@
 	import { invalidateAll } from '$app/navigation';
 	import { page } from '$app/stores';
 
-	let username = '';
+	let username = 'random user';
 
 	async function handleSubmit(data: any) {
 		await fetch('/api/auth/callback', {
